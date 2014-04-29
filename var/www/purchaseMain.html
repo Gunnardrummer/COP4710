@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Orders Page</title>
+<!-- Change css directory when on server -->
+<link href="C:\Users\Hector\Documents\GitHub\databases\GeneralCSS.css" type="text\css" rel="stylesheet" />
+</head>
+
+<style type="text/css">html {
+  background-image:  url(UCF.jpg) no-repeat center center fixed;
+  background-size: cover;
+}</style>
+
+<body class="purchasePage">
+
+<h1><p><center  class="purchaseBoxes" id="extraMain">Purchases Main</center></p></h1>
+
+<h2><p class="purchaseBoxes">This interface is to be used by any faculty/staff member in EECS to request a purchase of one or more items.
+	If you are requesting orders from more than one vendor, the form should be submitted separately for each vendor.</p></h2>
+
+
+<!-- change directory for orders when ready -->
+<form action="PerformQuery.php" name="AddOrder" method="post">
+<fieldset>
+	<legend><h2 class="purchaseHeading">Purchase form</h2></legend>
+	<h3>
+	<label>Requester Name:<input type="text" name="requester" />	</label> 	<br />
+	<label>Requester Email (must include @ucf.edu):<input name="email" type="email" />	</label>	<br />
+	<label>Account Number: <input name="acctNum" type="text"/> </label> <br />
+	<label>Check if order is urgent <input name="urgent" type="checkbox" value="true"/> </label> <br />
+	<label>Check if item is a computer/laptop <input name="compPurchase" type="checkbox" value="true"/> </label> <br />
+	<label>Vendor: <input name="vendor" type="text"/> </label> <br />
+	<label>Please describe the item and include quantities below <textarea name="description"></textarea> </label> <br />
+	<label>Total Purchase amount: <input name="amount" type="text"/> </label> <br />
+	<label>Upload files:<input type="file" name="attachment" /></label><br />
+	</h3>
+</fieldset>
+<br />
+<input type="submit" name="submit" value="Submit order" />
+</form>
+
+</body>
+</html>

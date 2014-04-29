@@ -1,0 +1,68 @@
+
+/* possible fonts
+
+	rockwell
+	impact
+	myriad pro
+
+ */
+h1 {
+	font-family: Rockwell, Myriad Pro, impact;
+	font-size: 36Px;
+
+
+}
+
+/* possible fonts: 
+	verdana
+	century gothic
+	franklin gothic book
+ */
+h2 {
+	font-family: verdana, century gothic, franklin gothic book;
+	font-size: 14Px;
+}
+
+h2.purchaseHeading{
+	font-size: 18Px;
+}
+
+h3 {
+	font-family: verdana, century gothic, franklin gothic book;
+	font-size: 12Px;
+}
+
+fieldset, .purchaseBoxes{
+	vertical-align: middle;
+	width: 500Px;
+	background-color: WHITE;
+	border-radius: 10px;
+	border: 2px solid #000000;
+	padding: 8px;
+	opacity: .85;
+	line-height: 25px;
+}
+
+.purchaseBoxes{
+width: 1000px;
+}
+
+#extraMain{
+margin-left: auto;
+margin-right: auto;
+background-color: #FFD700;
+}
+
+legend{
+background-color: #FFD700;
+border: 2Px solid #000000;
+border-radius: 10px;	
+}
+
+body.purchasePage{
+	background-image: url(beach.JPG);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+}
