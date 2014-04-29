@@ -1,4 +1,4 @@
-This is the GitHub Repository for our COP4710 - Database Management Systems. Our project was to create a site that the UCF EECS Faculty would be able to use to place orders for supplies. This was our first time implementing most of these technologies. That being said no promises what we did was clever or efficient in all instances. 
+This is the GitHub Repository for our COP4710 - Database Management Systems. Our project was to create a site that the UCF EECS Faculty would be able to use to place orders for supplies. This was our first time implementing most of these technologies. That being said no promises what we did was clever or efficient in all instances.  
 
 Please enjoy!
 
